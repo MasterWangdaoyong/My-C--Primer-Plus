@@ -1,0 +1,147 @@
+复习题：
+1､创建函数；定义函数；调用函数；
+
+2､
+a—-void igor();
+b—-float tofu(int);
+c——double mpg(double,double);
+d——long summation(long [],int);
+e——double doctor(const char []); 
+f——void ofcourse(boss);
+g——char * plot(map *);
+
+3､
+void xxx(int name[], int chang, int number);
+{
+    for (int i = 0; i < chang; i++)
+         name[i] = number;
+}
+
+4､
+void xxx(int * name_begin, int * name_end, int number);
+int main()
+{
+    using namespace std;
+    int  * abc;
+    xxx(abc, abc+2, 0);
+    return 0;
+}
+void xxx(int * name_begin, int * name_end, int number)
+{
+    using namespace std;
+    int xx = 0;
+    int * x;
+    for (x = name_begin; x != name_end; x++)
+    {
+        *x = number;
+        cout << x+1 << “ : ” << *x << endl;
+    }
+}
+
+
+5､  问题很严重，不怎么明白循环的测试条件怎么写
+double max(const double * shu, int x)
+{
+
+}
+
+6､   也不怎么明白
+因为需要经常性的修改值吗？
+
+7､
+a——char xx[] = “xxxx”;
+b——string xxx = “xxxxxx”;
+c——void char_xxx(void)
+{
+   std::cout << “xxx” << std::endl;
+}
+
+
+8､
+int replace(char * str, char c1, char c2)
+{
+   int x = 0;
+   c1 = c2;
+   while (*str)
+     {
+       if (*str == c1)
+          {
+            *str = c2;
+            x++;
+          }
+       str++;
+     }
+   return x;
+}
+
+
+9､
+应该是数字
+两个字符串名的数组
+
+10､
+struct glitz
+{
+   int x;
+   int y;
+}
+struct haha
+{
+   int aa;
+   int bb;
+}
+void a_b(glitz * in, haha * out)
+{
+    using namespace std;
+    out->aa = in->x;
+    out->bb = in->y;
+} 
+glitz answer(haha * out)
+{
+    glitz * answer;
+    answer->x = out->aa + out->bb;
+    answer->y = out->bb / out->aa;
+    return answer;
+}
+上面两种都是传递结构地址  
+void a_b(glitz in, haha out) 这才是按值传递
+利弊关系不太清楚
+按值效率慢
+地址传递效率高，但危险，会修改原数据
+
+
+11､
+int judge(int const char * abc)
+
+
+12､
+void show(application abc)
+{
+    using namespace std;
+    cout << abc.name[1] << endl;
+    cout << abc.credit_ratings[1] << endl;
+}
+void show(application * abc)
+{
+    using namespace std;
+    cout << abc->name[1] << endl;
+    cout << abc->credit_ratings[1] << endl;
+}
+
+13､
+typedef *(*f1)(applicant * a);
+f1 * p1;
+typedef const char *(*f2)(const applicant * ai, const applicant * a2);
+f2 * p2;
+f2 ap[5] = {p1,p1,p1,p1,p1};
+fa (*pa)[10] = {p2,p2,p2,p2,p2,p2,p2,p2,p2,p2};
+
+
+
+
+
+
+
+
+
+

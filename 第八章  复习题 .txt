@@ -1,0 +1,182 @@
+第八章  复习题
+1､ inline 简短小函数，能一行表示的函数
+2､ a 在main()前面  void song(const char * name, int times = 1);
+   b char * name      times
+   c 可以
+#include <iostream>
+using namespace std;
+void song(const char * name = "O.My Papa", int times = 1);
+int main()
+{
+    song();
+    return 0;
+}
+
+void song(const char * name, int times)
+{
+    cout << name << endl;
+}
+3､ void iquote(int)
+   void iquote(double)
+   void iquote(string)
+4､ 
+#include <iostream>
+using namespace std;
+struct box
+{
+    char maker[40];
+    float height;
+    float width;
+    float length;
+    float volume;
+};
+void Showstruct(box & a);
+float re_value(box &a);
+void tar_struct(box & a);
+int main()
+{
+    box c =
+    {"wang jianping",70,1,6,2};
+    Showstruct(c);
+    tar_struct(c);
+    cout << c.volume << endl;
+    return 0;
+}
+void Showstruct(box & a)
+{
+    cout << "a.maker -> " <<  a.maker << endl;
+    cout << "a.height -> " <<  a.height << endl;
+    cout << "a.width -> " <<  a.width << endl;
+    cout << "a.length -> " <<  a.length << endl;
+    cout << "a.volume -> " <<  a.volume << endl;
+}
+float re_value(box &a)   //版本一
+{
+    float c;
+    c = a.width * a.width * a.length;
+    return  c;
+}
+void tar_struct(box & a)   //版本二
+{
+    a.volume = a.width * a.height * a.length;
+}
+5､
+已解决，难点在于 void show(array<double,seasons> & da) 原型中的数组引用 使用array方式引用
+而不是 da[]方式
+6､
+a
+double mass(double density = 1, double volume = 1);
+double mass(double density, double volume)
+{
+    double d_v[3];
+    d_v[0] = density;
+    d_v[1] = volume;
+    return d_v[2];
+}
+b
+#include <iostream>
+using namespace std;
+void Show(int n = 5, string = "But you're kind of stupid");
+//变量名可以省略，但等号不能省
+int main()
+{
+    Show();
+    Show(10,"I'm OK");
+    return 0;
+}
+void Show(int n, string b)
+{
+    for (int i = 0; i < n; i++)
+    {
+        cout << b << endl;
+    }
+}
+c
+#include <iostream>
+using namespace std;
+template <typename T>
+T pingjun(T &a, T &b);
+int main()
+{
+    int x = 3, y = 6;
+    double xx = 3.0, yy = 6.0;
+    cout << pingjun(x, y) << endl;
+    cout << pingjun(xx, yy) << endl;
+    return 0;
+}
+template <typename T>
+T pingjun(T &a, T &b)
+{
+    return  (a+b)/2;
+}
+d
+已完成
+7
+#include <iostream>
+using namespace std;
+template <typename T>
+T min_max(T &a, T &b)
+{
+    return a > b ? a : b;   //如果a大于b，就返回a；否则如果a小于b，就返回b
+}
+int main()
+{
+    int a = 3, b = 14;
+    cout << min_max(a, b) << endl;
+    return 0;
+}
+8  未解决，还存在问题  题目有些模糊，返回体积较大的一个结构呢？还是一个数值？还是结构的引呢？
+初步尝试返回两个结构得出的较大数值，程序出错
+#include <iostream>
+using namespace std;
+template <typename T>
+T Min_max(T &a, T &b);
+struct box
+{
+    char maker[40];
+    float height;
+    float width;
+    float length;
+    float volume;
+};
+template <> float Min_max<box>(box &a, box &b);
+int main()
+{
+    box a = {"wang jianping",70,1,6,2};
+    box d = {"wang daoyong",60,1,5,3};
+    int c = 3, b = 14;
+    cout << Min_max(c, b) << endl;
+    return 0;
+}
+template <typename T>
+float Min_max(T &a, T &b)
+{
+    return a > b ? a : b;
+}
+template <> float Min_max<box>(box &a, box &b)
+//前基础函数声音返回一定要一样,如：void
+{
+    float x,y;
+    x = a.height * a.width * a.length;
+    y = b.height * b.width * b.length;
+    return x > y ? x : y;
+}
+9
+v1   float
+v2   float &
+v3   float &
+v4   int
+v5   double
+
+
+
+
+
+
+
+
+
+
+
+
+

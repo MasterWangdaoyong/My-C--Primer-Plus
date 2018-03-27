@@ -1,0 +1,6 @@
+1､a 自动  b 静态 外部  c 静态 内部  d 外部引用
+2､ using 声明使一个名称可用  using std::cout;
+   using 编译指令使所有的名称都可用 using namespace std;
+
+
+

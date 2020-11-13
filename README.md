@@ -6,6 +6,11 @@ C++ Primer Plus的自我学习
 - [学习记录 https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Learn](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Learn)
 - [题目练习 https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Exercise](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Exercise)
 
+目录说明：
+- Exercise 复习题及练习题自学作业
+- Learn 章节程序跟写
+- Show 图片库存
+
 ![MainCustom.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/MainCustom.jpg)
 
 ![BookTime.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/BookTime.jpg)

@@ -1,7 +1,9 @@
 ﻿# C-Primer-Plus
-C++ Primer Plus
-的自我学习
-[我的博客https://www.zhihu.com/people/wangTimemachine](https://www.zhihu.com/people/wangTimemachine "悬停显示")
+C++ Primer Plus的自我学习
+
+        *[我的博客https://www.zhihu.com/people/wangTimemachine](https://www.zhihu.com/people/wangTimemachine "悬停显示")
+        *学习记录
+        *题目练习
 ![MainCustom.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/MainCustom.jpg)
 
 ![BookTime.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/BookTime.jpg)

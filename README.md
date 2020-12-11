@@ -3,8 +3,6 @@ C++ Primer Plus的自我学习
 
 - [我的博客 https://www.zhihu.com/people/wangTimemachine](https://www.zhihu.com/people/wangTimemachine)
 - [我的A站 https://www.artstation.com/jianpingwang](https://www.artstation.com/jianpingwang)
-- [学习记录 https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Learn](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Learn)
-- [题目练习 https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Exercise](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/tree/master/Exercise)
 
 目录说明：
 - Exercise 复习题及练习题自学作业

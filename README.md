@@ -15,12 +15,4 @@ C++ Primer Plus的自我学习
 
 ![Book.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/Book.jpg)
 
-![2018year3m.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/2018year3m.jpg)
-
 ![Booklearn.jpg](https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/Booklearn.jpg)
-
-<img src="https://raw.githubusercontent.com/QianMo/X-PostProcessing-Gallery/master/Media/Title/GlitchRGBSplitV5-2.gif"  align="middle" />
-
-<img src="https://github.com/MasterWangdaoyong/My-C--Primer-Plus/blob/master/Show/Booklearn.jpg"  align="middle" />
-
-
